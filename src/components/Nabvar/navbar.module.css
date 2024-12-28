@@ -1,0 +1,59 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.navbar-brand {
+    font-size: 1.25rem;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1rem;
+    }
+  
+    .form-control {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav {
+      gap: 1rem;
+    }
+  
+    .form-control {
+      width: auto;
+    }
+  
+    .btn {
+      width: auto;
+    }
+  }
+  
+  /* Ajustes generales para mejorar estética */
+  .dropdown-menu {
+    z-index: 1050; /* Asegúrate de que el menú se superponga correctamente */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+  
